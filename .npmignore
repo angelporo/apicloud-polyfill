@@ -5,3 +5,5 @@
 /.babelrc
 
 /webpack.config.js
+
+/imgs/*

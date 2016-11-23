@@ -2,7 +2,7 @@
 
 ## 简介
 
-[apicloud-polyfill](https://github.com/apicloudcom/apicloud-polyfill),是 [APICloud](http://www.apicloud.com/) 为切实提高混合移动应用开发中,广大前端开发者的开发体验而推出的一个脚手架. 借助 **apicloud-polyfill** ,前端开发者,可以直接在 APICloud 项目中,使用最新的 es6,es7语法.
+[apicloud-polyfill](https://github.com/apicloudcom/apicloud-polyfill),是 [APICloud](http://www.apicloud.com/) 为切实提高前端开发者的混发开发体验而推出的一个脚手架. 借助 *apicloud-polyfill* ,前端开发者可以直接使用最新的 es6,es7语法,在 JS 层以模块化的方式,高效优雅地开发APICloud 应用.
 
 开源地址: [https://github.com/apicloudcom/apicloud-polyfill](https://github.com/apicloudcom/apicloud-polyfill)
 
@@ -26,7 +26,7 @@ npm i apicloud-polyfill --save
 
 ## 使用
 
-JS类库方式: 
+JS类库方式:
 
 ```js
 import Polyfill from "apicloud-polyfill"
@@ -66,6 +66,8 @@ npm run bundle_d_s
 # 如果已安装 apicloud-cli,也可以直接使用 apicloud 调用指令
 apicloud run bundle_d_s
 ```
+
+![](https://raw.githubusercontent.com/apicloudcom/apicloud-polyfill/master/imgs/clock_show.png)
 
 ### 5.polyfill 化以后,项目将自动支持一下 npm 指令:
 

@@ -1,5 +1,5 @@
 {
-  "name": "apicloud-polyfill",
+  "name": "apicloud-polyfill-sample",
   "version": "0.0.1",
   "description": "apicloud-polyfill,以模块化方式开发 APICloud App!",
   "main": "index.js",

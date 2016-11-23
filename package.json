@@ -1,6 +1,6 @@
 {
   "name": "apicloud-polyfill",
-  "version": "0.0.14",
+  "version": "0.1.0",
   "description": "使用 es6 模块化开发 APICloud App",
   "main": "lib/main.js",
   "scripts": {
