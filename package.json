@@ -1,0 +1,39 @@
+{
+  "name": "apicloud-polyfill",
+  "version": "0.0.14",
+  "description": "使用 es6 模块化开发 APICloud App",
+  "main": "lib/main.js",
+  "scripts": {
+    "webpack": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "webpack --color --progress",
+    "bundle_d": "webpack -d --color --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apicloudcom/apicloud-polyfill.git"
+  },
+  "keywords": [
+    "APICloud",
+    "es6",
+    "polyfill",
+    "模块化",
+    "混合开发"
+  ],
+  "author": "APICloud",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/apicloudcom/apicloud-polyfill/issues"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-preset-latest": "^6.16.0",
+    "webpack": "^1.13.3",
+    "source-map-support": "^0.4.6"
+  },
+  "homepage": "https://github.com/apicloudcom/apicloud-polyfill#readme",
+  "dependencies": {
+    "fs-extra": "^1.0.0"
+  }
+}
